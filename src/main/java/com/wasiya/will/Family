@@ -1,0 +1,20 @@
+package com.wasiya.will;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class Family {
+
+    boolean isMale;
+    boolean hasSpouse;
+    int sonsCount;
+    int daughtersCount;
+    boolean hasMom;
+    boolean hasDad;
+    int brothersCount;
+    int sistersCount;
+
+
+}
