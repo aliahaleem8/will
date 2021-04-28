@@ -1,0 +1,9 @@
+version: 0.1
+
+phases:
+  install:
+    runtime-versions:
+      java: 11
+  build:
+    commands:
+      - ls
